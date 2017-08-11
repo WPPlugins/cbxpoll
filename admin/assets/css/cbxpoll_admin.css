@@ -1,0 +1,68 @@
+.chosen-container-single, .chosen-container-multi{
+    min-width: 244px !important;
+}
+
+/* This stylesheet is used to style the admin option form of the plugin. */
+.search-field input{
+    height: 30px!important;
+}
+
+#poststuff h2.nav-tab-wrapper {
+    margin-bottom: -9px;
+}
+
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+}
+
+ul#cbx_poll_answers_items li.placeholder {
+    position: relative;
+    /** More li styles **/
+}
+
+ul#cbx_poll_answers_items li.placeholder:before {
+    position: absolute;
+    /** Define arrowhead **/
+}
+
+.cbpollmoveicon{
+    float: right;
+    background: url("../images/move.png") left top no-repeat;
+    width: 16px; height: 16px;
+    display: block; text-indent: -99999px;
+    cursor: move;
+    margin-top: 10px;
+}
+
+.cbxpoll_answer_wrap{
+
+}
+.cbx_poll_items {
+    list-style: none;
+    margin-left: 0!important;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.cbx_poll_items .wp-picker-container{
+    position: relative;
+    top: 9px;
+    left: 0;
+}
+.cbx_pollremove {
+    position: relative;
+    top: 7px;
+}
+
+.cbx_poll_items_placeholder{
+    background: #f7f7f7;
+    min-height: 36px;
+    border: 1px dashed;
+}
